@@ -2,7 +2,7 @@ const student = {
     name: "bablu",
     age: 25,
     enrolled: true,
-    courses: ["Programming", "Design", "Networking"],
+    courses: ["Programming", "Design", "Network"],
     displayInfo: function () {
       return `${this.name} is ${this.age} years old and enrolled in ${this.courses.length} courses.`;
     }
