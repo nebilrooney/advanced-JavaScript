@@ -28,7 +28,7 @@ const student = {
   console.log("Second Score:", secondScore);
   
   const clonedStudent = { ...student };
-  clonedStudent.graduationYear = 2025;
+  clonedStudent.graduationYear = 2026;
   console.log("Cloned Student with Graduation Year:", clonedStudent);
   
   const newCourses = ["Structures", "Java"];
@@ -43,7 +43,7 @@ const student = {
     return this.courses.length;
   };
   
-  student.addCourse("Machine Learning");
+  student.addCourse("Technical");
   console.log("Courses after adding:", student.courses);
   console.log("Total number of courses:", student.totalCourses());
   
